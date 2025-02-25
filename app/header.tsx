@@ -16,7 +16,7 @@ export function Header() {
           className="text-zinc-600 dark:text-zinc-500"
           delay={0.5}
         >
-          Sound Artist, Creative Technologist, Educator, Community Organizer
+          Musician / Sound Artist, Creative Technologist, Educator, Community Organizer
         </TextEffect>
       </div>
     </header>
