@@ -93,7 +93,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     title: 'yon ti vizit',
     description:
-      'a field recording of a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
+      'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
     link: '/blog/yon-ti-vizit',
     uid: 'blog-3',
   },
