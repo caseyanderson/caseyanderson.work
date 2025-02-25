@@ -27,6 +27,7 @@ type SocialLink = {
   link: string
 }
 
+/**
 export const PROJECTS: Project[] = [
   {
     name: 'Motion Primitives Pro',
@@ -73,6 +74,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     id: 'work3',
   },
 ]
+**/
 
 export const BLOG_POSTS: BlogPost[] = [
   {
