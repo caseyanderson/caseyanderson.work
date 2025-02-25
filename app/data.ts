@@ -78,9 +78,9 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title: 'RADIOS',
+    description: 'works for many AM/FM Radios',
+    link: '/blog/RADIOS',
     uid: 'blog-1',
   },
   {
