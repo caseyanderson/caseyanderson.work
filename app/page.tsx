@@ -143,6 +143,7 @@ export default function Personal() {
         </div>
       </motion.section>
 
+      {/* COMMENTED OUT BY CTA
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
@@ -209,7 +210,8 @@ export default function Personal() {
           ))}
         </div>
       </motion.section>
-
+      */}
+      
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
