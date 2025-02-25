@@ -104,6 +104,13 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/laboratwa-eletroknik-matnewa',
     uid: 'blog-4',
   },
+  {
+    title: 'KAOS Kids',
+    description:
+      'an Afrofuturist Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center',
+    link: '/blog/kaos-kids',
+    uid: 'blog-5',
+  },
 
 ]
 
