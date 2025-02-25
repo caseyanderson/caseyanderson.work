@@ -137,7 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Repurposing / designing custom technologies to activate participatory practice,
+            Repurposing and designing custom technologies to activate participatory practice,
             primarily involving explorations of sound, in diverse cultures and communities.
           </p>
         </div>
