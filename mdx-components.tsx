@@ -58,7 +58,6 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           width={width}
           height={height}
           title={title}
-          className="rounded-xl"
           style={{ border: 0 }}
           seamless
           allowFullScreen
