@@ -90,6 +90,13 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/ghostses',
     uid: 'blog-2',
   },
+  {
+    title: 'yon ti vizit',
+    description:
+      'a field recording of a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
+    link: '/blog/yon-ti-vizit',
+    uid: 'blog-3',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
