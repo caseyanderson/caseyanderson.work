@@ -97,6 +97,14 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/yon-ti-vizit',
     uid: 'blog-3',
   },
+  {
+    title: 'Laboratwa Eletronik Matènwa',
+    description:
+      'a hands-on technology curriculum designed and piloted for / with Lekòl Kominote Matènwa, a community school in rural Haiti',
+    link: '/blog/laboratwa-eletroknik-matnewa',
+    uid: 'blog-4',
+  },
+
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
