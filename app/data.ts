@@ -84,10 +84,10 @@ export const BLOG_POSTS: BlogPost[] = [
     uid: 'blog-1',
   },
   {
-    title: 'Why I left my job to start my own company',
+    title: 'ghostses',
     description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+      'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments',
+    link: '/blog/ghostses',
     uid: 'blog-2',
   },
   {
