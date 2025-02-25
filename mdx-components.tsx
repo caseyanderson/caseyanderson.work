@@ -14,7 +14,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     }) => {
       return (
         <figure>
-          <img src={src} className="rounded-xl" />
+          <img src={src} />
         </figure>
       )
     },
@@ -35,7 +35,6 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           width={width}
           height={height}
           title={title}
-          className="rounded-xl"
           style={{ border: 'none' }}
           allowFullScreen
         />
