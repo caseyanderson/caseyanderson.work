@@ -42,16 +42,17 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
     Bandcamp: ({
-      src,
+      album,
       width = '100%',
       height = '120',
       title = 'Bandcamp Player',
     }: {
-      src: string
+      album: string
       width?: string | number
       height?: string | number
       title?: string
     }) => {
+      const src = `https://bandcamp.com/EmbeddedPlayer/album=${album}/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/`
       return (
         <iframe
           src={src}
