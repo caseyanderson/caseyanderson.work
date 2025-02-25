@@ -3,6 +3,14 @@ import type { MDXComponents } from 'mdx/types'
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     ...components,
+    // Custom link component for Markdown links
+    a: ({ href, children }: { href?: string; children: React.ReactNode }) => {
+      return (
+        <a href={href} target="_blank" rel="noopener noreferrer">
+          {children}
+        </a>
+      )
+    },
     Cover: ({
       src,
       alt,
