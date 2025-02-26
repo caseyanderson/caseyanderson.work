@@ -154,7 +154,7 @@ export const BLOG_POSTS: BlogPost[] = [
     {
         title: 'test',
         description: 'test',
-        link: '/blog/emy',
+        link: '/blog/test',
         uid: 'blog-1',
     },
 
