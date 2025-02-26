@@ -89,13 +89,13 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/kaos-kids',
         uid: 'blog-2',
     },
-   /** {
+    {
         title: 'a wave press',
         description: 'a private press with an emphasis on experimental work in and around music and sound',
         link: '/blog/awavepress',
         uid: 'blog-3',
     },
-    {
+   /** {
         title: 'yon ti vizit',
         description: 'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
         link: '/blog/yon-ti-vizit',
