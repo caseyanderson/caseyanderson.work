@@ -77,6 +77,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 **/
 
 export const BLOG_POSTS: BlogPost[] = [
+/**
     {
         title: 'Trade School',
         description: 'a project space building worker power through creative experimentation and education',
@@ -149,6 +150,14 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/emy',
         uid: 'blog-12',
     },
+**/
+    {
+        title: 'test',
+        description: 'test',
+        link: '/blog/emy',
+        uid: 'blog-1',
+    },
+
 
 ]
 
