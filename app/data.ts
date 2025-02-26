@@ -145,7 +145,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'The Experimental Music Yearbook',
-        description: 'an repository and periodic festival archiving the methods and styles of artists working in the experimental music tradition',
+        description: 'a repository and periodic festival archiving the methods and styles of artists working in the experimental music tradition',
         link: '/blog/emy',
         uid: 'blog-12',
     },
