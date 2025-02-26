@@ -79,7 +79,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const BLOG_POSTS: BlogPost[] = [
     {
         title: 'Trade School',
-        description: 'Trade School is a project space building worker power through creative experimentation and education',
+        description: 'a project space building worker power through creative experimentation and education',
         link: '/blog/trade-school',
         uid: 'blog-1',
     },
