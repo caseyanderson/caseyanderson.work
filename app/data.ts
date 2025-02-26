@@ -118,6 +118,13 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/electric-melon',
     uid: 'blog-6',
   },
+  {
+    title: 'a wave press',
+    description: 'a wave press is a private press with an emphasis on experimental work in and around music and sound',
+    link: '/blog/awavepress',
+    uid: 'blog-7',
+  },
+
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
