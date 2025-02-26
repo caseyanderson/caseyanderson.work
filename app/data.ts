@@ -77,65 +77,66 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 **/
 
 export const BLOG_POSTS: BlogPost[] = [
-  {
-    title: 'RADIOS',
-    description: 'works for many AM/FM Radios',
-    link: '/blog/RADIOS',
-    uid: 'blog-1',
-  },
-  {
-    title: 'ghostses',
-    description:
-      'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments',
-    link: '/blog/ghostses',
-    uid: 'blog-2',
-  },
-  {
-    title: 'yon ti vizit',
-    description:
-      'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
-    link: '/blog/yon-ti-vizit',
-    uid: 'blog-3',
-  },
-  {
-    title: 'Laboratwa Eletronik Matènwa',
-    description:
-      'a hands-on technology curriculum designed for / with Lekòl Kominote Matènwa, a community school in rural Haiti',
-    link: '/blog/laboratwa-eletroknik-matnewa',
-    uid: 'blog-4',
-  },
-  {
-    title: 'KAOS Kids',
-    description:
-      'an Afrofuturist Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center',
-    link: '/blog/kaos-kids',
-    uid: 'blog-5',
-  },
-  {
-    title: 'Electric Melon',
-    description:
-      'a hands-on technology workshop in which participants create and perform with an amplified melon',
-    link: '/blog/electric-melon',
-    uid: 'blog-6',
-  },
-  {
-    title: 'a wave press',
-    description: 'a private press with an emphasis on experimental work in and around music and sound',
-    link: '/blog/awavepress',
-    uid: 'blog-7',
-  },
-  {
-    title: 'Changes: 64 Studies for 6 Harps, James Tenney',
-    description: 'recovering and completing this massive, unfinished Tenney project for archival, recording, and performance purposes',
-    link: '/blog/changes',
-    uid: 'blog-8',
-  },
-  {
-    title: 'Rainforest IV, David Tudor',
-    description: 'designed technology for, and installed, this landmark Tudor sound installation',
-    link: '/blog/rainforest',
-    uid: 'blog-9',
-  },
+    {
+        title: 'Trade School',
+        description: 'Trade School is a project space building worker power through creative experimentation and education',
+        link: '/blog/trade-school',
+        uid: 'blog-1',
+    },
+    {
+        title: 'KAOS Kids',
+        description: 'an Afrofuturist Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center',
+        link: '/blog/kaos-kids',
+        uid: 'blog-2',
+    },
+    {
+        title: 'yon ti vizit',
+        description: 'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
+        link: '/blog/yon-ti-vizit',
+        uid: 'blog-3',
+    },
+    {
+        title: 'ghostses',
+        description: 'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments',
+        link: '/blog/ghostses',
+        uid: 'blog-4',
+    },
+    {
+        title: 'Laboratwa Eletronik Matènwa',
+        description: 'a hands-on technology curriculum designed for / with Lekòl Kominote Matènwa, a community school in rural Haiti',
+        link: '/blog/laboratwa-eletroknik-matnewa',
+        uid: 'blog-5',
+    },
+    {
+        title: 'a wave press',
+        description: 'a private press with an emphasis on experimental work in and around music and sound',
+        link: '/blog/awavepress',
+        uid: 'blog-6',
+    },
+    {
+        title: 'RADIOS',
+        description: 'works for many AM/FM Radios',
+        link: '/blog/RADIOS',
+        uid: 'blog-7',
+    },
+    {
+        title: 'Electric Melon',
+        description: 'a hands-on technology workshop in which participants create and perform with an amplified melon',
+        link: '/blog/electric-melon',
+        uid: 'blog-8',
+    },
+    {
+        title: 'Rainforest IV, David Tudor',
+        description: 'designed technology for, and installed, this landmark Tudor sound installation',
+        link: '/blog/rainforest',
+        uid: 'blog-9',
+    },
+    {
+        title: 'Changes: 64 Studies for 6 Harps, James Tenney',
+        description: 'recovering and completing this massive, unfinished Tenney project for archival, recording, and performance purposes',
+        link: '/blog/changes',
+        uid: 'blog-10',
+    },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
