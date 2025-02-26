@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Casey Anderson - Portfolio',
+  title: 'Casey Anderson - Work',
   description:
     'A portfolio site for Los Angeles artist Casey Anderson',
 }

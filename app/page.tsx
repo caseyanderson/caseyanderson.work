@@ -211,12 +211,12 @@ export default function Personal() {
         </div>
       </motion.section>
       */}
-      
+
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-3 text-lg font-medium">Portfolio</h3>
+        <h3 className="mb-3 text-lg font-medium">Work</h3>
         <div className="flex flex-col space-y-0">
           <AnimatedBackground
             enableHover
