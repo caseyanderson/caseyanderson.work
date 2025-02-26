@@ -133,7 +133,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
-        description: 'recovering and completing this massive, unfinished Tenney project for archival, recording, and performance purposes',
+        description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance',
         link: '/blog/changes',
         uid: 'blog-10',
     },
