@@ -72,5 +72,28 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         />
       )
     },
+    Vimeo: ({
+      src,
+      width = '100%',
+      height = '400',
+      title = 'Vimeo Video',
+    }: {
+      src: string
+      width?: string | number
+      height?: string | number
+      title?: string
+    }) => {
+      return (
+        <iframe
+          src={src}
+          width={width}
+          height={height}
+          title={title}
+          style={{ border: 'none' }}
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+        />
+      )
+    },
   }
 }
