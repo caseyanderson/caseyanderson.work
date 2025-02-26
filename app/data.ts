@@ -120,7 +120,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     title: 'a wave press',
-    description: 'a wave press is a private press with an emphasis on experimental work in and around music and sound',
+    description: 'a private press with an emphasis on experimental work in and around music and sound',
     link: '/blog/awavepress',
     uid: 'blog-7',
   },
