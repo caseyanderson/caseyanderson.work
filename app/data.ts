@@ -77,13 +77,13 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 **/
 
 export const BLOG_POSTS: BlogPost[] = [
-/**
     {
         title: 'Trade School',
         description: 'a project space building worker power through creative experimentation and education',
         link: '/blog/trade-school',
         uid: 'blog-1',
     },
+    /**
     {
         title: 'KAOS Kids',
         description: 'an Afrofuturist Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center',
@@ -151,14 +151,6 @@ export const BLOG_POSTS: BlogPost[] = [
         uid: 'blog-12',
     },
 **/
-    {
-        title: 'test',
-        description: 'test',
-        link: '/blog/test',
-        uid: 'blog-1',
-    },
-
-
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
