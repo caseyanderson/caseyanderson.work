@@ -120,22 +120,28 @@ export const BLOG_POSTS: BlogPost[] = [
         uid: 'blog-7',
     },
     {
+        title: 'territory (echo park)',
+        description: 'a participatory sound event for radio transmitter and many radios',
+        link: '/blog/territory',
+        uid: 'blog-8',
+    },
+    {
         title: 'Electric Melon',
         description: 'a hands-on technology workshop in which participants create and perform with an amplified melon',
         link: '/blog/electric-melon',
-        uid: 'blog-8',
+        uid: 'blog-9',
     },
     {
         title: 'Rainforest IV, David Tudor',
         description: 'designed technology for, and installed, this landmark Tudor sound installation',
         link: '/blog/rainforest',
-        uid: 'blog-9',
+        uid: 'blog-10',
     },
     {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
         description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance',
         link: '/blog/changes',
-        uid: 'blog-10',
+        uid: 'blog-11',
     },
 ]
 
