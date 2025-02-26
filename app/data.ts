@@ -90,33 +90,33 @@ export const BLOG_POSTS: BlogPost[] = [
         uid: 'blog-2',
     },
     {
+        title: 'a wave press',
+        description: 'a private press with an emphasis on experimental work in and around music and sound',
+        link: '/blog/awavepress',
+        uid: 'blog-3',
+    },
+    {
         title: 'yon ti vizit',
         description: 'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
         link: '/blog/yon-ti-vizit',
-        uid: 'blog-3',
+        uid: 'blog-4',
     },
     {
         title: 'ghostses',
         description: 'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments',
         link: '/blog/ghostses',
-        uid: 'blog-4',
+        uid: 'blog-5',
     },
     {
         title: 'Laboratwa Eletronik Matènwa',
         description: 'a hands-on technology curriculum designed for / with Lekòl Kominote Matènwa, a community school in rural Haiti',
         link: '/blog/laboratwa-eletroknik-matnewa',
-        uid: 'blog-5',
+        uid: 'blog-6',
     },
         {
         title: 'RADIOS',
         description: 'works for many AM/FM Radios',
         link: '/blog/RADIOS',
-        uid: 'blog-6',
-    },
-    {
-        title: 'a wave press',
-        description: 'a private press with an emphasis on experimental work in and around music and sound',
-        link: '/blog/awavepress',
         uid: 'blog-7',
     },
     {
