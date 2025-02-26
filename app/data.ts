@@ -111,7 +111,13 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/kaos-kids',
     uid: 'blog-5',
   },
-
+  {
+    title: 'Electric Melon',
+    description:
+      'a hands-on technology workshop in which participants create and perform with an amplified melon',
+    link: '/blog/electric-melon',
+    uid: 'blog-6',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
