@@ -14,20 +14,6 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: 'Casey Anderson - Work',
   description: 'A portfolio site for Los Angeles artist Casey Anderson',
-  icons: {
-    icon: [
-      {
-        url: '/icons/AWP-LOGO-BLACK.svg', // Updated path
-        type: 'image/svg+xml',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icons/AWP-LOGO-WHITE.svg', // Updated path
-        type: 'image/svg+xml',
-        media: '(prefers-color-scheme: dark)',
-      },
-    ],
-  },
 };
 
 const geist = Geist({
