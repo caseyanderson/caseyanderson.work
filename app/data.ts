@@ -83,14 +83,13 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/trade-school',
         uid: 'blog-1',
     },
-    /**
     {
         title: 'KAOS Kids',
         description: 'an Afrofuturist Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center',
         link: '/blog/kaos-kids',
         uid: 'blog-2',
     },
-    {
+   /** {
         title: 'a wave press',
         description: 'a private press with an emphasis on experimental work in and around music and sound',
         link: '/blog/awavepress',
