@@ -11,18 +11,19 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         </a>
       )
     },
-    Cover: ({
-      src,
-      alt,
-      caption,
-    }: {
-      src: string
-      alt: string
-      caption: string
-    }) => {
+    Cover: ({ src }: { src: string }) => {
+      // Prepend the path to the filename
+      const imagePath = `/app/images/${src}`
       return (
-        <figure>
-          <img src={src} />
+        <figure style={{ margin: 0 }}>
+          <img
+            src={imagePath}
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+              display: 'block'
+            }}
+          />
         </figure>
       )
     },
