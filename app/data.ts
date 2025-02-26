@@ -124,7 +124,18 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/awavepress',
     uid: 'blog-7',
   },
-
+  {
+    title: 'Changes: 64 Studies for 6 Harps, James Tenney',
+    description: 'recovering and completing this massive, unfinished Tenney project for archival, recording, and performance purposes',
+    link: '/blog/changes',
+    uid: 'blog-8',
+  },
+  {
+    title: 'Rainforest IV, David Tudor',
+    description: 'designed technology for, and installed, this landmark Tudor sound installation',
+    link: '/blog/rainforest',
+    uid: 'blog-9',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
