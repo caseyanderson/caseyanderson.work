@@ -1,36 +1,49 @@
-import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
-import './globals.css'
-import { Header } from './header'
-import { Footer } from './footer'
-import { ThemeProvider } from 'next-themes'
+import type { Metadata, Viewport } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
+import './globals.css';
+import { Header } from './header';
+import { Footer } from './footer';
+import { ThemeProvider } from 'next-themes';
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   themeColor: '#ffffff',
-}
+};
 
 export const metadata: Metadata = {
   title: 'Casey Anderson - Work',
-  description:
-    'A portfolio site for Los Angeles artist Casey Anderson',
-}
+  description: 'A portfolio site for Los Angeles artist Casey Anderson',
+  icons: {
+    icon: [
+      {
+        url: '/icons/AWP-LOGO-BLACK.svg', // Updated path
+        type: 'image/svg+xml',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/icons/AWP-LOGO-WHITE.svg', // Updated path
+        type: 'image/svg+xml',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
+  },
+};
 
 const geist = Geist({
   variable: '--font-geist',
   subsets: ['latin'],
-})
+});
 
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
-})
+});
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -53,5 +66,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
