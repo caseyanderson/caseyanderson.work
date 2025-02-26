@@ -107,16 +107,16 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/laboratwa-eletroknik-matnewa',
         uid: 'blog-5',
     },
+        {
+        title: 'RADIOS',
+        description: 'works for many AM/FM Radios',
+        link: '/blog/RADIOS',
+        uid: 'blog-6',
+    },
     {
         title: 'a wave press',
         description: 'a private press with an emphasis on experimental work in and around music and sound',
         link: '/blog/awavepress',
-        uid: 'blog-6',
-    },
-    {
-        title: 'RADIOS',
-        description: 'works for many AM/FM Radios',
-        link: '/blog/RADIOS',
         uid: 'blog-7',
     },
     {
