@@ -95,13 +95,13 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/awavepress',
         uid: 'blog-3',
     },
-   /** {
+    {
         title: 'yon ti vizit',
         description: 'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
         link: '/blog/yon-ti-vizit',
         uid: 'blog-4',
     },
-    {
+    /**{
         title: 'ghostses',
         description: 'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments',
         link: '/blog/ghostses',
