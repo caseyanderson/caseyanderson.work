@@ -12,8 +12,8 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
     Cover: ({ src }: { src: string }) => {
-      // Prepend the path to the filename
-      const imagePath = `/app/images/${src}`
+      // Updated path to use /public/images/
+      const imagePath = `/images/${src}`
       return (
         <figure style={{ margin: 0 }}>
           <img
