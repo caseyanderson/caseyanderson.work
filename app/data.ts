@@ -137,7 +137,7 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/rainforest',
         uid: 'blog-10',
     },
-    /**{
+    {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
         description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance',
         link: '/blog/changes',
@@ -149,7 +149,6 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/emy',
         uid: 'blog-12',
     },
-**/
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
