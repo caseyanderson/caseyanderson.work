@@ -13,7 +13,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // Cover component (unchanged)
+    // Cover component
     Cover: ({ src }: { src: string }) => {
       const imagePath = `/images/${src}`
       return (
@@ -30,7 +30,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // YouTube component (unchanged)
+    // YouTube component
     YouTube: ({
       src,
       width = '100%',
@@ -58,11 +58,11 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // Reverted Bandcamp component with artwork=small
+    // Bandcamp component (ensuring artwork=small works)
     Bandcamp: ({
       album,
       width = '100%',
-      height = '120', // Back to original default height for small player with artwork
+      height = '120',
       title = 'Bandcamp Player',
     }: {
       album: string
@@ -70,7 +70,6 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       height?: string | number
       title?: string
     }) => {
-      // Reverted to artwork=small
       const src = `https://bandcamp.com/EmbeddedPlayer/album=${album}/size=small/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/`
       return (
         <iframe
@@ -79,9 +78,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           height={height}
           title={title}
           style={{
-            maxWidth: '100%', // Responsive width
+            maxWidth: '100%',
             border: 0,
-            maxHeight: '150px', // Back to previous cap
+            maxHeight: '150px',
           }}
           seamless
           allowFullScreen
@@ -89,7 +88,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // Vimeo component (unchanged)
+    // Vimeo component
     Vimeo: ({
       src,
       width = '100%',
