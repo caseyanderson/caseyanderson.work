@@ -101,7 +101,7 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/yon-ti-vizit',
         uid: 'blog-4',
     },
-    /**{
+    {
         title: 'ghostses',
         description: 'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments',
         link: '/blog/ghostses',
@@ -113,7 +113,7 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/laboratwa-eletroknik-matnewa',
         uid: 'blog-6',
     },
-        {
+    /**{
         title: 'RADIOS',
         description: 'works for many AM/FM Radios',
         link: '/blog/RADIOS',
