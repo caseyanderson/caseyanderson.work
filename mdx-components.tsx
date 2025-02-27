@@ -58,11 +58,11 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // Updated Bandcamp component
+    // Reverted Bandcamp component with artwork=small
     Bandcamp: ({
       album,
       width = '100%',
-      height = '42', // Matches minimal player height with artwork=none
+      height = '120', // Back to original default height for small player with artwork
       title = 'Bandcamp Player',
     }: {
       album: string
@@ -70,8 +70,8 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       height?: string | number
       title?: string
     }) => {
-      // Changed to artwork=none for a shorter player
-      const src = `https://bandcamp.com/EmbeddedPlayer/album=${album}/size=small/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=none/transparent=true/`
+      // Reverted to artwork=small
+      const src = `https://bandcamp.com/EmbeddedPlayer/album=${album}/size=small/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/`
       return (
         <iframe
           src={src}
@@ -81,7 +81,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           style={{
             maxWidth: '100%', // Responsive width
             border: 0,
-            maxHeight: '60px', // Cap for minor variations
+            maxHeight: '150px', // Back to previous cap
           }}
           seamless
           allowFullScreen
