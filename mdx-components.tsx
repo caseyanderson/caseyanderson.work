@@ -4,7 +4,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     ...components,
 
-    // Custom link component (already fine, no responsiveness needed here)
+    // Custom link component
     a: ({ href, children }: { href?: string; children: React.ReactNode }) => {
       return (
         <a href={href} target="_blank" rel="noopener noreferrer">
@@ -13,7 +13,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // Cover (already responsive, included for reference)
+    // Cover component (unchanged)
     Cover: ({ src }: { src: string }) => {
       const imagePath = `/images/${src}`
       return (
@@ -30,11 +30,11 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // YouTube (made responsive)
+    // YouTube component (unchanged)
     YouTube: ({
       src,
-      width = '100%', // Default to 100% for responsiveness
-      height = 'auto', // Let aspect ratio handle height
+      width = '100%',
+      height = 'auto',
       title = 'Embedded content',
     }: {
       src: string
@@ -49,20 +49,20 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           height={height}
           title={title}
           style={{
-            maxWidth: '100%', // Ensure it doesn’t overflow container
+            maxWidth: '100%',
             border: 'none',
-            aspectRatio: '16 / 9', // Maintain standard video aspect ratio
+            aspectRatio: '16 / 9',
           }}
           allowFullScreen
         />
       )
     },
 
-    // Bandcamp (made responsive)
+    // Updated Bandcamp component
     Bandcamp: ({
       album,
-      width = '100%', // Default to 100% for responsiveness
-      height = 'auto', // Let aspect ratio or content dictate height
+      width = '100%',
+      height = '42', // Matches minimal player height with artwork=none
       title = 'Bandcamp Player',
     }: {
       album: string
@@ -70,7 +70,8 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       height?: string | number
       title?: string
     }) => {
-      const src = `https://bandcamp.com/EmbeddedPlayer/album=${album}/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/`
+      // Changed to artwork=none for a shorter player
+      const src = `https://bandcamp.com/EmbeddedPlayer/album=${album}/size=small/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=none/transparent=true/`
       return (
         <iframe
           src={src}
@@ -78,9 +79,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           height={height}
           title={title}
           style={{
-            maxWidth: '100%', // Prevent overflow
+            maxWidth: '100%', // Responsive width
             border: 0,
-            aspectRatio: 'auto', // Bandcamp players adjust height dynamically
+            maxHeight: '60px', // Cap for minor variations
           }}
           seamless
           allowFullScreen
@@ -88,11 +89,11 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // Vimeo (made responsive)
+    // Vimeo component (unchanged)
     Vimeo: ({
       src,
-      width = '100%', // Default to 100% for responsiveness
-      height = 'auto', // Let aspect ratio handle height
+      width = '100%',
+      height = 'auto',
       title = 'Vimeo Video',
     }: {
       src: string
@@ -107,9 +108,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           height={height}
           title={title}
           style={{
-            maxWidth: '100%', // Ensure it fits container
+            maxWidth: '100%',
             border: 'none',
-            aspectRatio: '16 / 9', // Maintain standard video aspect ratio
+            aspectRatio: '16 / 9',
           }}
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
