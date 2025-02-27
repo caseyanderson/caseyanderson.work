@@ -137,13 +137,13 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/rainforest',
         uid: 'blog-10',
     },
-    /**{
+    {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
         description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance',
         link: '/blog/changes',
         uid: 'blog-11',
-    },/
-    {
+    },
+    /**{
         title: 'The Experimental Music Yearbook',
         description: 'a repository and periodic festival archiving the methods and styles of artists working in the experimental music tradition',
         link: '/blog/emy',
