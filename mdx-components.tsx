@@ -58,19 +58,22 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
 
-    // Bandcamp component (ensuring artwork=small works)
+    // Updated Bandcamp component based on your embed code
     Bandcamp: ({
       album,
       width = '100%',
       height = '120',
       title = 'Bandcamp Player',
+      artwork = 'none', // Default to match your embed
     }: {
       album: string
       width?: string | number
       height?: string | number
       title?: string
+      artwork?: 'none' | 'small' | 'large'
     }) => {
-      const src = `https://bandcamp.com/EmbeddedPlayer/album=${album}/size=small/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/`
+      const src = `https://bandcamp.com/EmbeddedPlayer/album=${album}/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=${artwork}/transparent=true/`
+      console.log('Bandcamp iframe src:', src)
       return (
         <iframe
           src={src}
@@ -80,7 +83,6 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           style={{
             maxWidth: '100%',
             border: 0,
-            maxHeight: '150px',
           }}
           seamless
           allowFullScreen
