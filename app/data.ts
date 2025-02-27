@@ -113,7 +113,7 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/laboratwa-eletroknik-matnewa',
         uid: 'blog-6',
     },
-    /**{
+    {
         title: 'RADIOS',
         description: 'works for many AM/FM Radios',
         link: '/blog/RADIOS',
@@ -125,7 +125,7 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/territory',
         uid: 'blog-8',
     },
-    {
+    /**{
         title: 'Electric Melon',
         description: 'a hands-on technology workshop in which participants create and perform with an amplified melon',
         link: '/blog/electric-melon',
