@@ -125,7 +125,7 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/territory',
         uid: 'blog-8',
     },
-    /**{
+    {
         title: 'Electric Melon',
         description: 'a hands-on technology workshop in which participants create and perform with an amplified melon',
         link: '/blog/electric-melon',
@@ -137,7 +137,7 @@ export const BLOG_POSTS: BlogPost[] = [
         link: '/blog/rainforest',
         uid: 'blog-10',
     },
-    {
+    /**{
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
         description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance',
         link: '/blog/changes',
