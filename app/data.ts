@@ -126,28 +126,34 @@ export const BLOG_POSTS: BlogPost[] = [
         uid: 'blog-8',
     },
     {
+        title: 'Faithfully Re-presenting the Outside World'
+        description: 'a discussion of abstraction and representation in the practice of field recording, for NewMusicBox',
+        link: '/blog/faithfully',
+        uid: 'blog-9',
+    },
+    {
         title: 'Electric Melon',
         description: 'a hands-on technology workshop in which participants create and perform with an amplified melon',
         link: '/blog/electric-melon',
-        uid: 'blog-9',
+        uid: 'blog-10',
     },
     {
         title: 'Rainforest IV, David Tudor',
         description: 'designed technology for, and installed, this landmark Tudor sound installation',
         link: '/blog/rainforest',
-        uid: 'blog-10',
+        uid: 'blog-11',
     },
     {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
         description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance',
         link: '/blog/changes',
-        uid: 'blog-11',
+        uid: 'blog-12',
     },
     {
         title: 'The Experimental Music Yearbook',
         description: 'a repository and periodic festival archiving the methods and styles of artists working in the experimental music tradition',
         link: '/blog/emy',
-        uid: 'blog-12',
+        uid: 'blog-13',
     },
     ]
 
