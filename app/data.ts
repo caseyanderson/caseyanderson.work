@@ -126,7 +126,7 @@ export const BLOG_POSTS: BlogPost[] = [
         uid: 'blog-8',
     },
     {
-        title: 'Faithfully Re-presenting the Outside World'
+        title: 'Faithfully Re-presenting the Outside World',
         description: 'a discussion of abstraction and representation in the practice of field recording, for NewMusicBox',
         link: '/blog/faithfully',
         uid: 'blog-9',
