@@ -151,7 +151,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
-        description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance (w/ Mike Winter, Lauren Pratt)',
+        description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance (w/ Michael Winter, Lauren Pratt)',
         link: '/blog/changes',
         uid: 'blog-13',
     },
