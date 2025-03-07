@@ -139,7 +139,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'Rainforest IV, David Tudor',
-        description: 'designed technology for, and installed, this landmark Tudor sound installation',
+        description: 'designed technology for, and installed, this landmark sound installation',
         link: '/blog/rainforest',
         uid: 'blog-11',
     },
@@ -151,7 +151,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
-        description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance (w/ Michael Winter, Lauren Pratt)',
+        description: 'recovered and completed this massive, unfinished project for archiving, recording, and performance (w/ Michael Winter, Lauren Pratt)',
         link: '/blog/changes',
         uid: 'blog-13',
     },
