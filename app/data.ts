@@ -144,16 +144,22 @@ export const BLOG_POSTS: BlogPost[] = [
         uid: 'blog-11',
     },
     {
+        title: 'The Making Lab',
+        description: 'designed, managed, and taught in this hands-on technology lab at ArtCenter College of Design',
+        link: '/blog/making-lab',
+        uid: 'blog-12',
+    },
+    {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
         description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance',
         link: '/blog/changes',
-        uid: 'blog-12',
+        uid: 'blog-13',
     },
     {
         title: 'The Experimental Music Yearbook',
         description: 'a repository and periodic festival archiving the methods and styles of artists working in the experimental music tradition',
         link: '/blog/emy',
-        uid: 'blog-13',
+        uid: 'blog-14',
     },
     ]
 
