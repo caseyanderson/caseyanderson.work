@@ -79,13 +79,13 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const BLOG_POSTS: BlogPost[] = [
     {
         title: 'Trade School',
-        description: 'a project space building worker power through creative experimentation and education',
+        description: 'a project space building worker power through creative experimentation and education (w/ Arden Stern)',
         link: '/blog/trade-school',
         uid: 'blog-1',
     },
     {
         title: 'KAOS Kids',
-        description: 'an Afrofuturist Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center',
+        description: 'an Afrofuturist Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center (w/ Elizabeth Chin)',
         link: '/blog/kaos-kids',
         uid: 'blog-2',
     },
@@ -97,19 +97,19 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'yon ti vizit',
-        description: 'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard',
+        description: 'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard (w/ Elizabeth Chin)',
         link: '/blog/yon-ti-vizit',
         uid: 'blog-4',
     },
     {
         title: 'ghostses',
-        description: 'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments',
+        description: 'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments (w/ Bent Duo)',
         link: '/blog/ghostses',
         uid: 'blog-5',
     },
     {
         title: 'Laboratwa Eletronik Matènwa',
-        description: 'a hands-on technology curriculum designed for / with Lekòl Kominote Matènwa, a community school in rural Haiti',
+        description: 'a hands-on technology curriculum designed for / with Lekòl Kominote Matènwa, a community school in rural Haiti (w/ Elizabeth Chin)',
         link: '/blog/laboratwa-eletroknik-matnewa',
         uid: 'blog-6',
     },
@@ -133,7 +133,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'Electric Melon',
-        description: 'a hands-on technology workshop in which participants create and perform with an amplified melon',
+        description: 'a hands-on technology workshop in which participants create and perform with an amplified melon (w/ Machine Project)',
         link: '/blog/electric-melon',
         uid: 'blog-10',
     },
@@ -151,13 +151,13 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'Changes: 64 Studies for 6 Harps, James Tenney',
-        description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance',
+        description: 'recovered and completed this massive, unfinished Tenney project for archiving, recording, and performance (w/ Mike Winter, Lauren Pratt)',
         link: '/blog/changes',
         uid: 'blog-13',
     },
     {
         title: 'The Experimental Music Yearbook',
-        description: 'a repository and periodic festival archiving the methods and styles of artists working in the experimental music tradition',
+        description: 'a repository and periodic festival archiving the methods and styles of artists working in the experimental music tradition (w/ John P. Hastings, Scott Cazan)',
         link: '/blog/emy',
         uid: 'blog-14',
     },
