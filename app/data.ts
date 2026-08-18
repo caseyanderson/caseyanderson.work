@@ -78,9 +78,9 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
     {
-        title: 'Trade School',
-        description: 'a project space building worker power through creative experimentation and education (w/ Arden Stern)',
-        link: '/blog/trade-school',
+        title: 'a wave',
+        description: 'supporting independent, experimental work at the intersection of creative practice (often involving music/sound), education, and community organization',
+        link: '/blog/awave',
         uid: 'blog-1',
     },
     {
@@ -90,9 +90,9 @@ export const BLOG_POSTS: BlogPost[] = [
         uid: 'blog-2',
     },
     {
-        title: 'a wave press',
-        description: 'a private press with an emphasis on experimental work in and around music and sound',
-        link: '/blog/awavepress',
+        title: 'Trade School',
+       description: 'a project space building worker power through creative experimentation and education (w/ Arden Stern)',
+        link: '/blog/trade-school',
         uid: 'blog-3',
     },
     {
