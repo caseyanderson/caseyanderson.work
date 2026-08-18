@@ -79,13 +79,13 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const BLOG_POSTS: BlogPost[] = [
     {
         title: 'a wave',
-        description: 'supporting independent, experimental work at the intersection of creative practice (often involving music/sound), education, and community organization',
+        description: 'supporting independent, experimental work at the intersection of creative practice, education, and community organization',
         link: '/blog/awave',
         uid: 'blog-1',
     },
     {
         title: 'KAOS Kids',
-        description: 'an Afrofuturist Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center (w/ Elizabeth Chin)',
+        description: 'an Technology-Forward, Multi-generational Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center (w/ Elizabeth Chin)',
         link: '/blog/kaos-kids',
         uid: 'blog-2',
     },
