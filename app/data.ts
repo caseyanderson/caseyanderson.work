@@ -85,7 +85,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     {
         title: 'KAOS Kids',
-        description: 'an Technology-Forward, Multi-generational Culture School designed for / with KAOS Network, the legendary Leimert Park community arts center (w/ Elizabeth Chin)',
+        description: 'an Art-driven, Technology-Forward, Multi-generational Culture School designed with KAOS Network, the legendary Leimert Park community arts center (w/ Elizabeth Chin)',
         link: '/blog/kaos-kids',
         uid: 'blog-2',
     },
