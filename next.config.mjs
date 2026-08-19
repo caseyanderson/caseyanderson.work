@@ -1,23 +1,27 @@
-import createMDX from '@next/mdx';
+import createMDX from '@next/mdx'
+import remarkFrontmatter from 'remark-frontmatter'
+import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
-
   async redirects() {
     return [
       {
         source: '/blog/:path*',
         destination: '/work/:path*',
-        permanent: true, // 301 redirect
+        permanent: true,
       },
-    ];
+    ]
   },
-};
+}
 
 const withMDX = createMDX({
   extension: /\.mdx?$/,
-});
+  options: {
+    remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter],
+  },
+})
 
-export default withMDX(nextConfig);
+export default withMDX(nextConfig)
