@@ -1,185 +1,25 @@
-type Project = {
-  name: string
-  description: string
-  link: string
-  video: string
-  id: string
-}
-
-type WorkExperience = {
-  company: string
-  title: string
-  start: string
-  end: string
-  link: string
-  id: string
-}
-
-type BlogPost = {
-  title: string
-  description: string
-  link: string
-  uid: string
-}
-
 type SocialLink = {
   label: string
   link: string
 }
 
-/**
-export const PROJECTS: Project[] = [
-  {
-    name: 'Motion Primitives Pro',
-    description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
-    id: 'project1',
-  },
-  {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
-  },
-]
-
-export const WORK_EXPERIENCE: WorkExperience[] = [
-  {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work1',
-  },
-  {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
-  },
-]
-**/
-
-export const BLOG_POSTS: BlogPost[] = [
-    {
-        title: 'a wave',
-        description: 'supporting independent, experimental work at the intersection of creative practice, education, and community organization',
-        link: '/work/awave',
-        uid: 'blog-1',
-    },
-    {
-        title: 'KAOS Kids / KAOS Activation Days',
-        description: 'an art-driven, technology-forward, intergenerational Culture School designed with KAOS Network, the legendary Leimert Park community arts center (w/ Elizabeth Chin)',
-        link: '/work/kaos-kids',
-        uid: 'blog-2',
-    },
-    {
-        title: 'Trade School',
-       description: 'a project space building worker power through creative experimentation and education (w/ Arden Stern)',
-        link: '/work/trade-school',
-        uid: 'blog-3',
-    },
-    {
-        title: 'yon ti vizit',
-        description: 'a conversation with Ogou Feray, a lwa (voudou spirit) who came to our friend Anetude "Zaza" Geffrard (w/ Elizabeth Chin)',
-        link: '/work/yon-ti-vizit',
-        uid: 'blog-4',
-    },
-    {
-        title: 'ghostses',
-        description: 'a computationally generated deconstruction / distortion of W.G. Sebald’s The Rings of Saturn for two readers with a batterie of instruments (w/ Bent Duo)',
-        link: '/work/ghostses',
-        uid: 'blog-5',
-    },
-    {
-        title: 'Laboratwa Eletronik Matènwa',
-        description: 'a hands-on technology curriculum designed for / with Lekòl Kominote Matènwa, a community school in rural Haiti (w/ Elizabeth Chin)',
-        link: '/work/laboratwa-eletroknik-matnewa',
-        uid: 'blog-6',
-    },
-    {
-        title: 'RADIOS',
-        description: 'works for many AM/FM Radios',
-        link: '/work/RADIOS',
-        uid: 'blog-7',
-    },
-    {
-        title: 'territory (echo park)',
-        description: 'a participatory sound event for radio transmitter and many radios',
-        link: '/work/territory',
-        uid: 'blog-8',
-    },
-    {
-        title: 'Faithfully Re-presenting the Outside World',
-        description: 'a discussion of abstraction and representation in the practice of field recording, for NewMusicBox',
-        link: '/work/faithfully',
-        uid: 'blog-9',
-    },
-    {
-        title: 'Electric Melon',
-        description: 'a hands-on technology workshop in which participants create and perform with an amplified melon (w/ Machine Project)',
-        link: '/work/electric-melon',
-        uid: 'blog-10',
-    },
-    {
-        title: 'Rainforest IV, David Tudor',
-        description: 'designed technology for, and installed, this landmark sound installation',
-        link: '/work/rainforest',
-        uid: 'blog-11',
-    },
-    {
-        title: 'The Making Lab',
-        description: 'designed, managed, and taught in this hands-on technology lab at ArtCenter College of Design',
-        link: '/work/making-lab',
-        uid: 'blog-12',
-    },
-    {
-        title: 'Changes: 64 Studies for 6 Harps, James Tenney',
-        description: 'recovered and completed this massive, unfinished project for archiving, recording, and performance (w/ Michael Winter, Lauren Pratt)',
-        link: '/work/changes',
-        uid: 'blog-13',
-    },
-    {
-        title: 'The Experimental Music Yearbook',
-        description: 'a repository and periodic festival archiving the methods and styles of artists working in the experimental music tradition (w/ John P. Hastings, Scott Cazan)',
-        link: '/work/emy',
-        uid: 'blog-14',
-    },
-    ]
-
 export const SOCIAL_LINKS: SocialLink[] = [
-    {
-        label: 'CV',
-        link: 'https://cv.caseyanderson.com/',
-    },
-    {
-        label: 'Github',
-        link: 'https://github.com/caseyanderson',
-    },
-    {
-        label: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/casey-thomas-anderson',
-    },
-    {
-        label: 'Instagram',
-        link: 'https://www.instagram.com/fakecaseyanderson',
-    },
+  {
+    label: 'CV',
+    link: 'https://cv.caseyanderson.com/',
+  },
+  {
+    label: 'Github',
+    link: 'https://github.com/caseyanderson',
+  },
+  {
+    label: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/casey-thomas-anderson',
+  },
+  {
+    label: 'Instagram',
+    link: 'https://www.instagram.com/fakecaseyanderson',
+  },
 ]
 
 export const EMAIL = 'cta@caseyanderson.com'
